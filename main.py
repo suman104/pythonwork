@@ -28,6 +28,7 @@
 #         name, *line = input().split()
 #         scores = list(map(float, line))
 #         student_marks[name] = scores
+
 #     query_name = input()
 #     scores = student_marks[query_name]
 #     print("{0:.2f}".format(round((sum(scores)/len(scores)),2)))
@@ -42,3 +43,12 @@ if __name__== '__main__':
     s= Student()
     s.setStudent('ram', 10)
     print("The name & age of Student is ", s.name, s.age)
+
+def add(a,b):
+	c = a+b
+        return c
+if __name__== '__main__':
+    a=5
+    b=10
+    add(a,b)
+

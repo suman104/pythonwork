@@ -37,6 +37,7 @@ class Student:
     def setStudent(self,name,age):
         self.name=name
         self.age=age
+        #inheritance applied
 if __name__== '__main__':
     s= Student()
     s.setStudent('ram', 10)

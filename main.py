@@ -28,10 +28,10 @@
 #         name, *line = input().split()
 #         scores = list(map(float, line))
 #         student_marks[name] = scores
-#     query_name = input()
-#     scores = student_marks[query_name]
-#     print("{0:.2f}".format(round((sum(scores)/len(scores)),2)))
+def add(a,b):
+	c = a+b
+        return c
 if __name__== '__main__':
     a=5
     b=10
-    print(a+b)
+    add(a,b)
